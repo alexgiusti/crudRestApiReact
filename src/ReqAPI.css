@@ -1,0 +1,45 @@
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.parContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    border: 1px solid #424242;
+    border-radius: 12px;
+    transition: ease-in-out 250ms all;
+    height: fit-content;
+    margin-bottom: 10px;
+
+
+}
+
+.parContainer:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.51);
+}
+
+.nameContainer{
+    margin: 5px;
+}
+
+.emailContainer{
+    margin: 5px;
+}
+
+.nomeLabel{
+    color: peru;
+    font-weight: bold;
+
+}
+
+.emailLabel{
+    color: peru;
+    font-weight: bold;
+
+}
